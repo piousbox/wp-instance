@@ -54,11 +54,11 @@ get_header(); ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
-  <?php /* get_sidebar(); */ ?>
+  <?php get_sidebar(); ?>
 
   <aside id="secondary" class="widget-area" role="complementary" aria-label="Blog Sidebar">
     <section id="recent-posts-2" class="widget widget_recent_entries">		
-      <? get_template_part('catlist'); ?>
+      <? /* get_template_part('catlist'); */ ?>
     </section>
   </aside>
 
