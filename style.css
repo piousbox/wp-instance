@@ -1784,6 +1784,10 @@ body:not(.has-header-image):not(.has-header-video) .custom-header-media {
 	vertical-align: bottom;
 }
 
+ul#top-menu {
+  text-align: center;
+}
+
 /*--------------------------------------------------------------
 13.2 Front Page
 --------------------------------------------------------------*/
