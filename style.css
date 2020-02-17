@@ -1614,7 +1614,7 @@ body.has-header-video .site-title a {
 }
 
 .site-description {
-	color: #666;
+	/* color: #666; */
 	font-size: 13px;
 	font-size: 0.8125rem;
 	margin-bottom: 0;
@@ -1655,8 +1655,17 @@ body:not(.title-tagline-hidden) .site-branding-text {
 	vertical-align: middle;
 }
 
-.custom-header {
+.site-branding {
 	position: relative;
+  background: #126ab2 url('./assets/images/seamless-clouds.jpg') repeat-x;
+  background-position: center bottom;
+  min-height: 250px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: black;
 }
 
 .has-header-image.twentyseventeen-front-page .custom-header,
@@ -2316,7 +2325,11 @@ body:not(.twentyseventeen-front-page) .entry-header {
 --------------------------------------------------------------*/
 
 .site-footer {
-	border-top: 1px solid #eee;
+	/* border-top: 1px solid #eee; */
+  min-height: 200px;
+
+  background: url('./assets/images/cross-grass-1.jpg') repeat-x center bottom ;
+  background-size: 200px;
 }
 
 .site-footer .wrap {
