@@ -2330,6 +2330,7 @@ body:not(.twentyseventeen-front-page) .entry-header {
 
   background: url('./assets/images/cross-grass-1.jpg') repeat-x center bottom ;
   background-size: 200px;
+  padding-bottom: 2em;
 }
 
 .site-footer .wrap {
