@@ -1,4 +1,4 @@
-/* global twentyseventeenScreenReaderText */
+
 /**
  * Theme functions file.
  *

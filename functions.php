@@ -489,6 +489,10 @@ function twentyseventeen_scripts() {
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
+
+  // 20200218 piousbox
+  wp_enqueue_script( 'script', get_theme_file_uri( '/assets/js/script.js' ), array( 'jquery' ), '2.1.2', true );
+
 }
 add_action( 'wp_enqueue_scripts', 'twentyseventeen_scripts' );
 

@@ -21,6 +21,8 @@
 
 <script data-ad-client="ca-pub-5283251584689528" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
 <?php wp_head(); ?>
 </head>
 

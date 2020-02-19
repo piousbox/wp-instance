@@ -18,7 +18,8 @@ Use it to make something cool, have fun, and share what you've learned with othe
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
 1.0 Normalize
-?   utils
+1.1 Utils
+1.2 Custom
 2.0 Accessibility
 3.0 Alignments
 4.0 Clearings
@@ -298,12 +299,19 @@ template {
 	display: none;
 }
 
-/**
- * utils
- */
+/*--------------------------------------------------------------
+ * 1.1 Utils
+--------------------------------------------------------------*/
 
 .hide, .hidden {
   display: none;
+}
+
+/*--------------------------------------------------------------
+ * 1.2 Custom
+--------------------------------------------------------------*/
+.pi-home-categories h5 {
+  text-align: center;
 }
 
 /*--------------------------------------------------------------
